@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ItsMyTrip from "./Mainpage/ItsMyTrip";
+import Destination from "./pages/Destination";
 
 export default function App() {
   const location = useLocation();
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/destination" element={<Destination/>}
 
         {/* "After Login" Pages */}
         <Route path="/its-my-trip/*" element={<ItsMyTrip />} />
