@@ -1,13 +1,16 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import App from "./App";
-// import ItsMyTrip from "./Mainpage/ItsMyTrip";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-    {/* <ItsMyTrip/> */}
-  </BrowserRouter>,
-  document.getElementById("root")
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
+
+reportWebVitals();
