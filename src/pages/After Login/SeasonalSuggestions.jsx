@@ -175,10 +175,11 @@ export default function SeasonalSuggestions() {
           {/* Centered "Show Suggested Places" Button */}
           <div className="d-flex justify-content-center mb-4">
             <button
-              className="btn btn-primary"
+              className="btn btn-primary btn-lg rounded-pill shadow-sm"
               type="button"
               onClick={handleSeasonChange}
             >
+              {/* className="btn btn-light btn-lg rounded-pill shadow-sm" */}
               Show Suggested Places
             </button>
           </div>

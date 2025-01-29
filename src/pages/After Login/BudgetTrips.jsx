@@ -133,7 +133,7 @@ export default function BudgetPlanner() {
                 </button>
               </div>
               <button
-                className="btn btn-primary mt-3"
+                className="btn btn-primary mt-3 btn-lg rounded-pill shadow-sm"
                 onClick={handleBudgetChange}
               >
                 Suggest Places

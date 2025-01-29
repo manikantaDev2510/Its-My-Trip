@@ -103,7 +103,7 @@ export default function BookTickets() {
                 />
               </label>
             </div>
-            <button className="btn btn-primary" type="submit">
+            <button className="btn btn-primary btn-lg rounded-pill shadow-sm" type="submit">
               Search Offers
             </button>
           </form>
@@ -120,7 +120,7 @@ export default function BookTickets() {
                     >
                       {option.type}: {option.offer}
                       <button
-                        className="btn btn-secondary btn-sm"
+                        className="btn btn-secondary btn-sm btn-lg rounded-pill shadow-sm"
                         onClick={() => handleBooking(option)}
                       >
                         Book {option.type}

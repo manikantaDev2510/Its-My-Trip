@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase/firebaseConfig";
 import { useNavigate } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Register() {
   const [email, setEmail] = useState("");
@@ -13,9 +16,12 @@ export default function Register() {
     e.preventDefault();
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      alert("Registration successful!");
-      navigate("/login"); // Navigate to the login page after successful registration
+      toast.success("Registration successful!");
+      setTimeout(() => {
+        navigate("/login");       // Navigate to the login page after showing the notification
+      }, 2000); // Wait 2 seconds before navigating
     } catch (err) {
+      toast.error("Registration failed: " + err.message);
       setError(err.message);
     }
   };
@@ -72,6 +78,7 @@ export default function Register() {
           </div>
         </div>
       </div>
+      <ToastContainer/>
     </div>
   );
 }

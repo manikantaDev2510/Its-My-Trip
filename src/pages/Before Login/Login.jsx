@@ -3,6 +3,9 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase/firebaseConfig";
 import { useNavigate } from "react-router-dom";
 import Spinner from "react-bootstrap/Spinner";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -17,14 +20,17 @@ export default function Login() {
     setError("");
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/main-home-page"); // Navigate to the after-login page
+      toast.success("Login successful!");
+      setTimeout(()=>{
+        navigate("/main-home-page"); // Navigate to the after-login page
+      },2000);
     } catch (err) {
       if (err.code === "auth/wrong-password") {
-        setError("Incorrect password. Please try again.");
+        toast.error("Incorrect password. Please try again.");
       } else if (err.code === "auth/user-not-found") {
-        setError("No user found with this email.");
+        toast.error("No user found with this email.");
       } else {
-        setError("An unexpected error occurred. Please try again later.");
+        toast.error("An unexpected error occurred. Please try again later.");
       }
     }
     setLoading(false);
@@ -34,10 +40,12 @@ export default function Login() {
     setLoading(true);
     setError("");
     try {
-      // Implement guest login logic here
+      toast.success("Guest Login successful!");
+      setTimeout(()=>{
       navigate("/main-home-page"); // Navigate to the after-login page for guest
+    },2000);
     } catch (err) {
-      setError("Guest login failed. Please try again later.");
+      toast.error("Guest login failed. Please try again later.");
     }
     setLoading(false);
   };
@@ -102,6 +110,7 @@ export default function Login() {
           </div>
         </div>
       </div>
+      <ToastContainer/>
     </div>
   );
 }

@@ -141,7 +141,7 @@ export default function TripPlanner() {
               </div>
               <div className="d-flex justify-content-center">
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-primary btn-lg rounded-pill shadow-sm"
                   type="button"
                   onClick={handleDateChange}
                 >

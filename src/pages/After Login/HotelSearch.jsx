@@ -109,7 +109,7 @@ function HotelSearch() {
             </div>
             {/* Date Input Row End */}
 
-            <button className="btn btn-primary" type="button" onClick={handleSearch}>
+            <button className="btn btn-primary btn-lg rounded-pill shadow-sm" type="button" onClick={handleSearch}>
               Search Hotels
             </button>
 

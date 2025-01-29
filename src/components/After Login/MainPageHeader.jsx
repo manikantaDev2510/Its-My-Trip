@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function MainPageHeader() {
+export default function Header() {
   return (
     <div>
       {/* Navbar Start */}
       <div className="container-fluid position-relative p-0">
-        <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 custom-bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
           <Link to="/main-home-page" className="navbar-brand p-0">
             <h1 className="text-primary m-0">
               <i className="fa fa-map-marker-alt me-3" />
@@ -41,16 +41,14 @@ export default function MainPageHeader() {
               <Link to="/booking-tickets" className="nav-item nav-link">
                 Book Tickets
               </Link>
-              <div className="btn btn-secondary rounded-pill py-1 px-4 me-2">
-                <Link
-                  to="/logout"
-                  className="nav-item nav-link text-white"
-                  style={{ textDecoration: "none" }}
-                >
-                  <i className="fa fa-sign-out-alt me-2" />
-                  Logout
-                </Link>
-              </div>
+            </div>
+            <div className="d-flex">
+              <Link
+                to="/logout"
+                className="btn btn-secondary rounded-pill py-2 px-4 me-2"
+              >
+                Logout
+              </Link>
             </div>
           </div>
         </nav>
