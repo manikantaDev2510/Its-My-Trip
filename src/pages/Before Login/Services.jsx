@@ -30,13 +30,22 @@ export default function Services() {
       {/* Service Start */}
       <div className="container-xxl py-5">
         <div className="container">
+
+
+
+          
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 className="section-title bg-white text-center text-primary px-3">
               Services
             </h6>
             <h1 className="mb-5">Our Services</h1>
           </div>
+
+
+
           <div className="row g-4">
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -52,6 +61,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -67,6 +78,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -82,6 +95,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.7s"
@@ -97,6 +112,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -112,6 +129,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -127,6 +146,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -142,6 +163,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.7s"
@@ -157,6 +180,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
       </div>

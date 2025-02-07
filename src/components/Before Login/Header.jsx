@@ -14,11 +14,11 @@ export default function Header() {
             >
               <small className="me-3 text-light">
                 <i className="fa fa-map-marker-alt me-2" />
-                123 Street, India
+                2-180 KPHB, Hyderabad, India
               </small>
               <small className="me-3 text-light">
                 <i className="fa fa-phone-alt me-2" />
-                +012 345 6789
+                +91 630 985 9448
               </small>
               <small className="text-light">
                 <i className="fa fa-envelope-open me-2" />
