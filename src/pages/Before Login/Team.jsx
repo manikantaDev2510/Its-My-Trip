@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import Header from '../../components/Before Login/Header'
+import Footer from '../../components/Before Login/Footer'
 
 export default function Team() {
   return (
     <div>
+      <Header/>
       <div className="container-fluid bg-primary py-5 mb-5 hero-header">
         <div className="container py-5">
           <div className="row justify-content-center py-5">
@@ -36,6 +39,8 @@ export default function Team() {
             <h1 className="mb-5">Meet Our Guide</h1>
           </div>
           <div className="row g-4">
+
+            {/* Team - 1 */}
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item">
                 <div className="overflow-hidden">
@@ -62,6 +67,8 @@ export default function Team() {
                 </div>
               </div>
             </div>
+
+            {/* Team - 2 */}
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div className="team-item">
                 <div className="overflow-hidden">
@@ -87,6 +94,8 @@ export default function Team() {
                 </div>
               </div>
             </div>
+
+            {/* Team - 3 */}
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="team-item">
                 <div className="overflow-hidden">
@@ -112,6 +121,8 @@ export default function Team() {
                 </div>
               </div>
             </div>
+
+            {/* Team - 4 */}
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
               <div className="team-item">
                 <div className="overflow-hidden">
@@ -137,10 +148,12 @@ export default function Team() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
       {/* Team End */}
+      <Footer/>
     </div>
   )
 }

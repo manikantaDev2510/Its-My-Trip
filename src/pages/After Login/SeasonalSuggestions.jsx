@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import MainPageHeader from "../../components/After Login/MainPageHeader";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function SeasonalSuggestions() {
   const [season, setSeason] = useState("");
@@ -8,7 +10,7 @@ export default function SeasonalSuggestions() {
 
   const handleSeasonChange = () => {
     if (!season) {
-      alert("Please select a season.");
+      toast.warn("Please select a season.");
       return;
     }
 
@@ -118,7 +120,7 @@ export default function SeasonalSuggestions() {
 
   return (
     <div>
-      <MainPageHeader/>
+      <MainPageHeader />
       <div className="container-fluid bg-primary py-5 mb-5 hero-header">
         <div className="container py-5">
           <div className="row justify-content-center py-5">
@@ -149,7 +151,7 @@ export default function SeasonalSuggestions() {
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 className="section-title bg-white text-center text-primary px-3">
-            Seasonal Suggestions
+              Seasonal Suggestions
             </h6>
             <h1 className="mb-5">Select your best Seasonal</h1>
           </div>
@@ -179,7 +181,6 @@ export default function SeasonalSuggestions() {
               type="button"
               onClick={handleSeasonChange}
             >
-              {/* className="btn btn-light btn-lg rounded-pill shadow-sm" */}
               Show Suggested Places
             </button>
           </div>
@@ -189,8 +190,7 @@ export default function SeasonalSuggestions() {
               <h3 className="text-center">Suggested Places for {season}:</h3>
               <div className="row g-4 justify-content-center">
                 {places.map((place, index) => (
-                  <div
-                    className="col-lg-4 col-md-6 wow fadeInUp"
+                  <div className="col-lg-4 col-md-6 wow fadeInUp"
                     data-wow-delay={`${0.2 + index * 0.2}s`}
                     key={index}
                   >
@@ -220,6 +220,7 @@ export default function SeasonalSuggestions() {
         </div>
       </div>
       {/* Seasonal Suggestions End */}
+      <ToastContainer />
     </div>
   );
 }

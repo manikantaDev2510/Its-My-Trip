@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
+import Header from '../../components/Before Login/Header'
+import Footer from '../../components/Before Login/Footer'
 
 export default function Contact() {
   return (
     <div>
+      <Header/>
         <div className="container-fluid bg-primary py-5 mb-5 hero-header">
     <div className="container py-5">
       <div className="row justify-content-center py-5">
@@ -153,6 +156,7 @@ export default function Contact() {
       </div>
     </div>
     {/* Contact End */}
+    <Footer/>
     </div>
   )
 }

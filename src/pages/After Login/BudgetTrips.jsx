@@ -143,7 +143,7 @@ export default function BudgetPlanner() {
 
           {/* Suggested Places */}
           <div className="row g-3 mt-5">
-            {/* Top Row */}
+
             <div
               className="col-lg-8 col-md-8 wow zoomIn"
               data-wow-delay="0.2s"
@@ -166,7 +166,9 @@ export default function BudgetPlanner() {
                 </a>
               )}
             </div>
+
             <div className="col-lg-4 col-md-4 d-flex flex-column gap-3">
+              
               <div className="wow zoomIn flex-grow-1" data-wow-delay="0.3s">
                 {places[1] && (
                   <a
@@ -185,6 +187,7 @@ export default function BudgetPlanner() {
                   </a>
                 )}
               </div>
+
               <div className="wow zoomIn flex-grow-1" data-wow-delay="0.4s">
                 {places[2] && (
                   <a
@@ -203,27 +206,10 @@ export default function BudgetPlanner() {
                   </a>
                 )}
               </div>
+
             </div>
           </div>
 
-          {/* Bottom Row */}
-          <div className="col-lg-12 wow zoomIn" data-wow-delay="0.5s">
-            {places[3] && (
-              <a
-                className="position-relative d-block overflow-hidden"
-                href="#"
-              >
-                <img
-                  src={places[3].image}
-                  className="img-fluid w-100"
-                  alt={places[3].name}
-                />
-                <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                  {places[3].name}
-                </div>
-              </a>
-            )}
-          </div>
         </div>
       </div>
     </div>

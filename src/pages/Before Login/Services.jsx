@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../../components/Before Login/Header";
+import Footer from "../../components/Before Login/Footer";
 
 export default function Services() {
   return (
     <div>
+      <Header/>
       <div className="container-fluid bg-primary py-5 mb-5 hero-header">
         <div className="container py-5">
           <div className="row justify-content-center py-5">
@@ -29,23 +32,15 @@ export default function Services() {
       </div>
       {/* Service Start */}
       <div className="container-xxl py-5">
-        <div className="container">
-
-
-
-          
+        <div className="container">          
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 className="section-title bg-white text-center text-primary px-3">
               Services
             </h6>
             <h1 className="mb-5">Our Services</h1>
           </div>
-
-
-
           <div className="row g-4">
-
-
+            {/* Service - 1  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -62,7 +57,7 @@ export default function Services() {
               </div>
             </div>
 
-
+            {/* Service - 2  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -79,7 +74,7 @@ export default function Services() {
               </div>
             </div>
 
-
+            {/* Service - 3  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -96,7 +91,7 @@ export default function Services() {
               </div>
             </div>
 
-
+            {/* Service - 4  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.7s"
@@ -113,7 +108,7 @@ export default function Services() {
               </div>
             </div>
 
-
+            {/* Service - 5  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -130,7 +125,7 @@ export default function Services() {
               </div>
             </div>
 
-
+            {/* Service - 6  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -147,7 +142,7 @@ export default function Services() {
               </div>
             </div>
 
-
+            {/* Service - 7  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -164,7 +159,7 @@ export default function Services() {
               </div>
             </div>
 
-
+            {/* Service - 8  */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.7s"
@@ -181,11 +176,11 @@ export default function Services() {
               </div>
             </div>
 
-
           </div>
         </div>
       </div>
       {/* Service End */}
+      <Footer/>
     </div>
   );
 }

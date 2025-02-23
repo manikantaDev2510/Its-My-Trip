@@ -6,7 +6,6 @@ import Spinner from "react-bootstrap/Spinner";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -57,6 +56,7 @@ export default function Login() {
           <div className="col-lg-6">
             <div className="bg-white p-4 shadow rounded">
               <h2 className="text-center mb-4 wow animated slideInDown" data-wow-delay="0.1s">Login</h2>
+
               <form onSubmit={handleLogin}>
                 <div className="form-group mb-3 wow animated slideInDown" data-wow-delay="0.2s">
                   <label htmlFor="email" className="form-label">Email</label>
@@ -90,6 +90,7 @@ export default function Login() {
                 >
                   {loading ? <Spinner animation="grow" size="sm" /> : "Login"}
                 </button>
+                
                 <button
                   type="button"
                   className="btn btn-secondary w-100 mt-3 wow animated slideInDown"
@@ -101,11 +102,13 @@ export default function Login() {
                 </button>
                 {error && <p className="text-danger text-center mt-3">{error}</p>}
               </form>
+
               <div className="text-center mt-3">
                 <p className="text-muted wow animated slideInDown" data-wow-delay="0.9s">
                   Don't have an account?<a href="/register" className="btn btn-link">Register here</a>
                 </p>
               </div>
+
             </div>
           </div>
         </div>

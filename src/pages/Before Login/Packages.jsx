@@ -1,33 +1,37 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import Header from '../../components/Before Login/Header'
+import Footer from '../../components/Before Login/Footer'
 
 export default function Packages() {
   return (
     <div>
-          <div className="container-fluid bg-primary py-5 mb-5 hero-header">
-    <div className="container py-5">
-      <div className="row justify-content-center py-5">
-        <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-          <h1 className="display-3 text-white animated slideInDown">
-            Packages
-          </h1>
-          <nav aria-label="breadcrumb">
-            <ol className="breadcrumb justify-content-center">
-              <li className="breadcrumb-item">
-                <a href="/">Home</a>
-              </li>
-              <li
-                className="breadcrumb-item text-white active"
-                aria-current="page"
-              >
+      <Header/>
+      <div className="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div className="container py-5">
+          <div className="row justify-content-center py-5">
+            <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+              <h1 className="display-3 text-white animated slideInDown">
                 Packages
-              </li>
-            </ol>
-          </nav>
+              </h1>
+              <nav aria-label="breadcrumb">
+                <ol className="breadcrumb justify-content-center">
+                  <li className="breadcrumb-item">
+                    <a href="/">Home</a>
+                  </li>
+                  <li
+                    className="breadcrumb-item text-white active"
+                    aria-current="page"
+                  >
+                    Packages
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+
       {/* Package Start */}
       <div className="container-xxl py-5">
         <div className="container">
@@ -38,6 +42,8 @@ export default function Packages() {
             <h1 className="mb-5">Awesome Packages</h1>
           </div>
           <div className="row g-4 justify-content-center">
+
+            {/* Package - 1 */}
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="package-item">
                 <div className="overflow-hidden">
@@ -86,6 +92,8 @@ export default function Packages() {
                 </div>
               </div>
             </div>
+
+            {/* Package - 2 */}
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div className="package-item">
                 <div className="overflow-hidden">
@@ -134,6 +142,8 @@ export default function Packages() {
                 </div>
               </div>
             </div>
+
+            {/* Package - 3 */}
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="package-item">
                 <div className="overflow-hidden">
@@ -182,12 +192,14 @@ export default function Packages() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
-    {/* Package End */}
-    {/* Booking Start */}
-    <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      {/* Package End */}
+
+      {/* Booking Start */}
+      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
           <div className="booking p-5">
             <div className="row g-5 align-items-center">
@@ -283,9 +295,10 @@ export default function Packages() {
           </div>
         </div>
       </div>
-    {/* Booking End */}
-    {/* Process Start */}
-    <div className="container-xxl py-5">
+      {/* Booking End */}
+
+      {/* Process Start */}
+      <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
             <h6 className="section-title bg-white text-center text-primary px-3">
@@ -294,6 +307,8 @@ export default function Packages() {
             <h1 className="mb-5">3 Easy Steps</h1>
           </div>
           <div className="row gy-5 gx-4 justify-content-center">
+
+            {/* Process - 1 */}
             <div
               className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -309,9 +324,11 @@ export default function Packages() {
                 <hr className="w-25 mx-auto bg-primary mb-1" />
                 <hr className="w-50 mx-auto bg-primary mt-0" />
                 <p className="mb-0">
-                Choosing a destination is the first step in crafting a memorable tour, aligning your interests with the perfect location. Whether seeking adventure, relaxation, or cultural exploration, the right destination sets the tone for your journey.                </p>
+                  Choosing a destination is the first step in crafting a memorable tour, aligning your interests with the perfect location. Whether seeking adventure, relaxation, or cultural exploration, the right destination sets the tone for your journey.                </p>
               </div>
             </div>
+
+            {/* Process - 2 */}
             <div
               className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -327,9 +344,11 @@ export default function Packages() {
                 <hr className="w-25 mx-auto bg-primary mb-1" />
                 <hr className="w-50 mx-auto bg-primary mt-0" />
                 <p className="mb-0">
-                Paying online for your tour is a secure and convenient way to confirm your bookings instantly. It saves time, offering multiple payment options for a hassle-free travel planning experience.                </p>
+                  Paying online for your tour is a secure and convenient way to confirm your bookings instantly. It saves time, offering multiple payment options for a hassle-free travel planning experience.                </p>
               </div>
             </div>
+
+            {/* Process - 3 */}
             <div
               className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -345,13 +364,15 @@ export default function Packages() {
                 <hr className="w-25 mx-auto bg-primary mb-1" />
                 <hr className="w-50 mx-auto bg-primary mt-0" />
                 <p className="mb-0">
-                Fly today and embark on an unforgettable journey to your dream destination with ease and convenience. Last-minute flights make spontaneous travel possible, turning your wanderlust into reality.                </p>
+                  Fly today and embark on an unforgettable journey to your dream destination with ease and convenience. Last-minute flights make spontaneous travel possible, turning your wanderlust into reality.                </p>
               </div>
             </div>
+
           </div>
         </div>
       </div>
-    {/* Process End */}
+      {/* Process End */}
+      <Footer/>
     </div>
   )
 }

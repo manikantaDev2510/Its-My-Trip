@@ -1,4 +1,3 @@
-// LogoutPage.jsx
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Spinner from "react-bootstrap/Spinner";
@@ -7,13 +6,10 @@ export default function LogoutPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Clear user authentication data (localStorage, sessionStorage, or state)
-    localStorage.removeItem("authToken"); // Assuming you're using localStorage to store auth token
-
-    // Redirect to login page after logout
+    localStorage.removeItem("authToken"); 
     setTimeout(() => {
-      navigate("/"); // Adjust this path to match your login route
-    }, 2000); // Show a brief logout message before redirecting
+      navigate("/"); 
+    }, 2000); 
   }, [navigate]);
 
   return (

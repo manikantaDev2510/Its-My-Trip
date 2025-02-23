@@ -12,6 +12,7 @@ export default function Footer() {
       >
         <div className="container py-5">
           <div className="row g-5">
+
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Company</h4>
               <a className="btn btn-link" href="/about">
@@ -30,6 +31,7 @@ export default function Footer() {
                 FAQs &amp; Help
               </a>
             </div>
+
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Contact</h4>
               <p className="mb-2">
@@ -59,6 +61,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
+
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Gallery</h4>
               <div className="row g-2 pt-2">
@@ -100,6 +103,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Newsletter</h4>
               <p>Tour explore sit just explore travel experience explore discover journey est.</p>
@@ -120,8 +124,10 @@ export default function Footer() {
                 </button>
               </div>
             </div>
+
           </div>
         </div>
+        
         <div className="container">
           <div className="copyright">
             <div className="row">

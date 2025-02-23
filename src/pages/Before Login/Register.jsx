@@ -35,6 +35,7 @@ export default function Register() {
               <h2 className="text-center mb-4 wow animated slideInDown" data-wow-delay="0.1s">
                 Register
               </h2>
+              
               <form onSubmit={handleRegister}>
                 <div className="form-group mb-3 wow animated slideInDown" data-wow-delay="0.2s">
                   <label htmlFor="email" className="form-label">Email</label>
@@ -69,11 +70,13 @@ export default function Register() {
                 </button>
                 {error && <p className="text-danger text-center mt-3">{error}</p>}
               </form>
+
               <div className="text-center mt-3">
                 <p className="wow animated slideInDown" data-wow-delay="0.7s">
                   Already have an account? <a href="/login" className="btn btn-link">Login here</a>
                 </p>
               </div>
+
             </div>
           </div>
         </div>

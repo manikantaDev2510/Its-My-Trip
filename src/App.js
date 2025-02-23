@@ -1,7 +1,5 @@
 import React from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
-import Header from "./components/Before Login/Header";
-import Footer from "./components/Before Login/Footer";
+import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Before Login/Home";
 import About from "./pages/Before Login/About";
@@ -24,23 +22,9 @@ import BookingTickets from "./pages/After Login/BookingTickets";
 import LogoutPage from "./pages/After Login/LogOut";
 
 export default function App() {
-  const location = useLocation();
-
-  // Exclude Header and Footer for login, register, and after-login pages
-  const isBeforeLogin = ![
-    "/login",
-    "/register",
-    "/main-home-page",
-    "/seasonal-suggestions",
-    "/budget-trips",
-    "/trip-planner",
-    "/hotel-search",
-    "/booking-tickets", "/logout"
-  ].some((path) => location.pathname.startsWith(path));
 
   return (
     <div>
-      {isBeforeLogin && <Header />}
       <Routes>
         {/* Before Login Routes */}
         <Route path="/" element={<Home />} />
@@ -67,7 +51,6 @@ export default function App() {
         {/* Fallback for invalid routes */}
         <Route path="*" element={<Error />} />
       </Routes>
-      {isBeforeLogin && <Footer />}
     </div>
   );
 }

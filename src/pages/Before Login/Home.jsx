@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React from "react";
+import Header from "../../components/Before Login/Header";
+import Footer from "../../components/Before Login/Footer";
 
 export default function Home() {
   return (
     <div>
+      <Header />
       <div className="container-fluid bg-primary py-5 mb-5 hero-header">
         <div className="container py-5">
           <div className="row justify-content-center py-5">
@@ -60,7 +63,13 @@ export default function Home() {
                 Welcome to <span className="text-primary">It's My Trip</span>
               </h1>
               <p className="mb-4">
-                A trip is a journey taken to explore new places, cultures, and experiences, offering opportunities for adventure and relaxation. It provides a break from routine, allowing individuals to rejuvenate and create lasting memories. Whether for leisure, business, or personal growth, trips enrich life with unique stories and perspectives.            </p>
+                A trip is a journey taken to explore new places, cultures, and
+                experiences, offering opportunities for adventure and
+                relaxation. It provides a break from routine, allowing
+                individuals to rejuvenate and create lasting memories. Whether
+                for leisure, business, or personal growth, trips enrich life
+                with unique stories and perspectives.{" "}
+              </p>
               <div className="row gy-2 gx-4 mb-4">
                 <div className="col-sm-6">
                   <p className="mb-0">
@@ -118,6 +127,8 @@ export default function Home() {
             <h1 className="mb-5">Our Services</h1>
           </div>
           <div className="row g-4">
+
+             {/* Service - 1 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -133,6 +144,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+             {/* Service - 2 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -148,6 +161,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+             {/* Service - 3 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -163,6 +178,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+             {/* Service - 4 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.7s"
@@ -178,6 +195,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+             {/* Service - 5 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -193,6 +212,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+             {/* Service - 6 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -208,6 +229,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+             {/* Service - 7 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -223,6 +246,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+             {/* Service - 8 */}
             <div
               className="col-lg-3 col-sm-6 wow fadeInUp"
               data-wow-delay="0.7s"
@@ -238,6 +263,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -255,6 +281,8 @@ export default function Home() {
           <div className="row g-3">
             <div className="col-lg-7 col-md-6">
               <div className="row g-3">
+
+              {/* Destination - 1 */}
                 <div
                   className="col-lg-12 col-md-12 wow zoomIn"
                   data-wow-delay="0.1s"
@@ -276,6 +304,8 @@ export default function Home() {
                     </div>
                   </a>
                 </div>
+
+              {/* Destination - 2 */}
                 <div
                   className="col-lg-6 col-md-12 wow zoomIn"
                   data-wow-delay="0.3s"
@@ -297,6 +327,8 @@ export default function Home() {
                     </div>
                   </a>
                 </div>
+
+              {/* Destination - 3 */}
                 <div
                   className="col-lg-6 col-md-12 wow zoomIn"
                   data-wow-delay="0.5s"
@@ -318,8 +350,11 @@ export default function Home() {
                     </div>
                   </a>
                 </div>
+
               </div>
             </div>
+
+              {/* Destination - 4 */}
             <div
               className="col-lg-5 col-md-6 wow zoomIn"
               data-wow-delay="0.7s"
@@ -343,6 +378,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
+
           </div>
         </div>
       </div>
@@ -358,10 +394,19 @@ export default function Home() {
             <h1 className="mb-5">Awesome Packages</h1>
           </div>
           <div className="row g-4 justify-content-center">
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+
+            {/* Package - 1 */}
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
               <div className="package-item">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/package-1.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="d-flex border-bottom">
                   <small className="flex-fill text-center border-end py-2">
@@ -385,7 +430,9 @@ export default function Home() {
                     <small className="fa fa-star text-primary" />
                   </div>
                   <p>
-                    A Thailand tour offers a perfect blend of stunning beaches, vibrant cities, rich cultural heritage, and exquisite cuisine.
+                    A Thailand tour offers a perfect blend of stunning beaches,
+                    vibrant cities, rich cultural heritage, and exquisite
+                    cuisine.
                   </p>
                   <div className="d-flex justify-content-center mb-2">
                     <a
@@ -406,10 +453,19 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+
+            {/* Package - 2 */}
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
               <div className="package-item">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="assets/img/package-2.jpg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/package-2.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="d-flex border-bottom">
                   <small className="flex-fill text-center border-end py-2">
@@ -433,7 +489,9 @@ export default function Home() {
                     <small className="fa fa-star text-primary" />
                   </div>
                   <p>
-                    An Indonesia tour invites you to explore breathtaking islands, vibrant traditions, and stunning natural wonders like Bali and Komodo.
+                    An Indonesia tour invites you to explore breathtaking
+                    islands, vibrant traditions, and stunning natural wonders
+                    like Bali and Komodo.
                   </p>
                   <div className="d-flex justify-content-center mb-2">
                     <a
@@ -454,10 +512,19 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+
+            {/* Package - 3 */}
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
               <div className="package-item">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="assets/img/package-3.jpg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/package-3.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="d-flex border-bottom">
                   <small className="flex-fill text-center border-end py-2">
@@ -481,7 +548,8 @@ export default function Home() {
                     <small className="fa fa-star text-primary" />
                   </div>
                   <p>
-                    Malaysia is a captivating destination known for its diverse culture, modern cities, and lush rainforests.
+                    Malaysia is a captivating destination known for its diverse
+                    culture, modern cities, and lush rainforests.
                   </p>
                   <div className="d-flex justify-content-center mb-2">
                     <a
@@ -502,6 +570,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -516,7 +585,13 @@ export default function Home() {
                 <h6 className="text-white text-uppercase">Booking</h6>
                 <h1 className="text-white mb-4">Online Booking</h1>
                 <p className="mb-4">
-                  Online booking for tours offers convenience and flexibility, allowing travelers to plan trips from the comfort of their homes. It provides access to a wide range of destinations, activities, and accommodations with just a few clicks. Secure payment options and instant confirmations make it a hassle-free way to organize travel plans.              </p>
+                  Online booking for tours offers convenience and flexibility,
+                  allowing travelers to plan trips from the comfort of their
+                  homes. It provides access to a wide range of destinations,
+                  activities, and accommodations with just a few clicks. Secure
+                  payment options and instant confirmations make it a
+                  hassle-free way to organize travel plans.{" "}
+                </p>
                 <a className="btn btn-outline-light py-3 px-5 mt-2" href="">
                   Read More
                 </a>
@@ -616,6 +691,8 @@ export default function Home() {
             <h1 className="mb-5">3 Easy Steps</h1>
           </div>
           <div className="row gy-5 gx-4 justify-content-center">
+
+            {/* Process - 1 */}
             <div
               className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
               data-wow-delay="0.1s"
@@ -631,9 +708,16 @@ export default function Home() {
                 <hr className="w-25 mx-auto bg-primary mb-1" />
                 <hr className="w-50 mx-auto bg-primary mt-0" />
                 <p className="mb-0">
-                Choosing a destination is the first step in crafting a memorable tour, aligning your interests with the perfect location. Whether seeking adventure, relaxation, or cultural exploration, the right destination sets the tone for your journey.                </p>
+                  Choosing a destination is the first step in crafting a
+                  memorable tour, aligning your interests with the perfect
+                  location. Whether seeking adventure, relaxation, or cultural
+                  exploration, the right destination sets the tone for your
+                  journey.{" "}
+                </p>
               </div>
             </div>
+
+            {/* Process - 2 */}
             <div
               className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
               data-wow-delay="0.3s"
@@ -649,9 +733,15 @@ export default function Home() {
                 <hr className="w-25 mx-auto bg-primary mb-1" />
                 <hr className="w-50 mx-auto bg-primary mt-0" />
                 <p className="mb-0">
-                Paying online for your tour is a secure and convenient way to confirm your bookings instantly. It saves time, offering multiple payment options for a hassle-free travel planning experience.                </p>
+                  Paying online for your tour is a secure and convenient way to
+                  confirm your bookings instantly. It saves time, offering
+                  multiple payment options for a hassle-free travel planning
+                  experience.{" "}
+                </p>
               </div>
             </div>
+
+            {/* Process - 3 */}
             <div
               className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
               data-wow-delay="0.5s"
@@ -667,14 +757,19 @@ export default function Home() {
                 <hr className="w-25 mx-auto bg-primary mb-1" />
                 <hr className="w-50 mx-auto bg-primary mt-0" />
                 <p className="mb-0">
-                Fly today and embark on an unforgettable journey to your dream destination with ease and convenience. Last-minute flights make spontaneous travel possible, turning your wanderlust into reality.                </p>
+                  Fly today and embark on an unforgettable journey to your dream
+                  destination with ease and convenience. Last-minute flights
+                  make spontaneous travel possible, turning your wanderlust into
+                  reality.{" "}
+                </p>
               </div>
             </div>
+
           </div>
         </div>
       </div>
       {/* Process End */}
-      
+
       {/* Team Start */}
       <div className="container-xxl py-5">
         <div className="container">
@@ -685,10 +780,19 @@ export default function Home() {
             <h1 className="mb-5">Meet Our Guide</h1>
           </div>
           <div className="row g-4">
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            
+            {/* Team - 1 */}
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
               <div className="team-item">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="assets/img/team-1.jpg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/team-1.jpg"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
@@ -705,16 +809,24 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Rick Steves
-                  </h5>
+                  <h5 className="mb-0">Rick Steves</h5>
                   <small>Travel Writer</small>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+
+            {/* Team - 2 */}
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
               <div className="team-item">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="assets/img/team-2.jpg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/team-2.jpg"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
@@ -736,10 +848,19 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+
+            {/* Team - 3 */}
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
               <div className="team-item">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="assets/img/team-3.jpg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/team-3.jpg"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
@@ -761,10 +882,19 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+
+            {/* Team - 4 */}
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.7s"
+            >
               <div className="team-item">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="assets/img/team-4.jpg" alt="" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/team-4.jpg"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
@@ -786,10 +916,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
       {/* Team End */}
+      <Footer />
     </div>
-  )
+  );
 }

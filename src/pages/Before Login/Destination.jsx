@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import Header from '../../components/Before Login/Header'
+import Footer from '../../components/Before Login/Footer'
 
 export default function Destination() {
   return (
     <div>
+      <Header/>
         <div className="container-fluid bg-primary py-5 mb-5 hero-header">
     <div className="container py-5">
       <div className="row justify-content-center py-5">
@@ -40,6 +43,8 @@ export default function Destination() {
         <div className="row g-3">
           <div className="col-lg-7 col-md-6">
             <div className="row g-3">
+
+              {/* Destination - 1 */}
               <div
                 className="col-lg-12 col-md-12 wow zoomIn"
                 data-wow-delay="0.1s"
@@ -61,6 +66,8 @@ export default function Destination() {
                   </div>
                 </a>
               </div>
+
+              {/* Destination - 2 */}
               <div
                 className="col-lg-6 col-md-12 wow zoomIn"
                 data-wow-delay="0.3s"
@@ -82,6 +89,8 @@ export default function Destination() {
                   </div>
                 </a>
               </div>
+
+              {/* Destination - 3 */}
               <div
                 className="col-lg-6 col-md-12 wow zoomIn"
                 data-wow-delay="0.5s"
@@ -103,8 +112,11 @@ export default function Destination() {
                   </div>
                 </a>
               </div>
+
             </div>
           </div>
+
+              {/* Destination - 4 */}
           <div
             className="col-lg-5 col-md-6 wow zoomIn"
             data-wow-delay="0.7s"
@@ -128,10 +140,12 @@ export default function Destination() {
               </div>
             </a>
           </div>
+
         </div>
       </div>
     </div>
     {/* Destination Start */}
+    <Footer/>
     </div>
   )
 }

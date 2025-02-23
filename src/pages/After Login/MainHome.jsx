@@ -42,6 +42,7 @@ export default function MainHomePage() {
                 <p>Get tailored travel recommendations based on your preferences and budget.</p>
               </div>
             </div>
+
             <div className="col-lg-4 col-md-6 text-center">
               <div className="p-4">
                 <i className="fa fa-plane fa-3x text-primary mb-4"></i>
@@ -49,6 +50,7 @@ export default function MainHomePage() {
                 <p>Effortlessly book tickets, hotels, and activities all in one place.</p>
               </div>
             </div>
+
             <div className="col-lg-4 col-md-6 text-center">
               <div className="p-4">
                 <i className="fa fa-star fa-3x text-primary mb-4"></i>
@@ -56,6 +58,7 @@ export default function MainHomePage() {
                 <p>Explore the best-rated travel destinations for every season.</p>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -70,42 +73,49 @@ export default function MainHomePage() {
             <h1 className="mb-5">Explore Our Services</h1>
           </div>
           <div className="row g-4">
+
             <div className="col-lg-6">
               <div className="p-4 bg-white rounded shadow-sm wow fadeInLeft" data-wow-delay="0.2s">
                 <h5>Seasonal Travel Suggestions</h5>
                 <p>Plan your trips according to the best seasons with curated recommendations.</p>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="p-4 bg-white rounded shadow-sm wow fadeInRight" data-wow-delay="0.2s">
                 <h5>Budget-Friendly Options</h5>
                 <p>Find the best deals and packages that fit your travel budget.</p>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="p-4 bg-white rounded shadow-sm wow fadeInLeft" data-wow-delay="0.6s">
                 <h5>Plan Your Trip</h5>
                 <p>Organize your trip with our expert tools for an effortless experience.</p>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="p-4 bg-white rounded shadow-sm wow fadeInRight" data-wow-delay="0.6s">
                 <h5>Search Hotel Options</h5>
                 <p>Discover and compare the best hotels to ensure a comfortable stay.</p>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="p-4 bg-white rounded shadow-sm wow fadeInLeft" data-wow-delay="0.4s">
                 <h5>Easy Booking Platform</h5>
                 <p>Book your entire trip seamlessly with our user-friendly platform.</p>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="p-4 bg-white rounded shadow-sm wow fadeInRight" data-wow-delay="0.4s">
                 <h5>24/7 Support</h5>
                 <p>Our team is available round the clock to assist you with your travel needs.</p>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
