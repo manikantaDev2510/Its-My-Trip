@@ -1,4 +1,5 @@
-![Screenshot 2025-03-24 105612](https://github.com/user-attachments/assets/e188f1fd-b148-4019-b0f9-896af495585c)# 🌍 **It's My Trip - Travel Guide Web Application**  
+![Screenshot 2025-03-24 105612](https://github.com/user-attachments/assets/e188f1fd-b148-4019-b0f9-896af495585c)
+#### 🌍 **It's My Trip - Travel Guide Web Application**  
 
 ### 🏖️ Plan your perfect trip effortlessly!  
 A modern and responsive **travel planning web application** built using **React, HTML5, CSS3, Bootstrap, and JavaScript**. This platform helps users explore **seasonal suggestions, budget-friendly trips, and custom travel planning tools** with **hotel search and ticket booking features**.
