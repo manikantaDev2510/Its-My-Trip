@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/15a11ad9-f100-440f-9f94-d2b82d1aaebd)
+![image](https://github.com/user-attachments/assets/a279bf70-dd14-485d-ad72-6d76e227eae3)![image](https://github.com/user-attachments/assets/15a11ad9-f100-440f-9f94-d2b82d1aaebd)
 ---
-#### 🌍 **It's My Trip - Travel Guide Web Application**  
+## 🌍 **It's My Trip - Travel Guide Web Application**  
 ---
 ### 🏖️ Plan your perfect trip effortlessly!  
 A modern and responsive **travel planning web application** built using **React, HTML5, CSS3, Bootstrap, and JavaScript**. This platform helps users explore **seasonal suggestions, budget-friendly trips, and custom travel planning tools** with **hotel search and ticket booking features**.
@@ -54,8 +54,7 @@ The app will run on **http://localhost:3000/** in your browser.
 
 ## 🌍 **Deployment**  
 This project can be deployed on:  
-✅ **Vercel** – `vercel --prod`  
-✅ **Netlify** – Drag & Drop the build folder  
+✅ **Vercel** – https://its-my-trip.vercel.app/  
 ✅ **GitHub Pages** – Configure React Router for proper navigation  
 
 ---
@@ -70,17 +69,8 @@ We welcome contributions! Follow these steps:
 
 ---
 
-## 📜 **License**  
-This project is licensed under the **MIT License**.  
-
----
-
 ## 📬 **Contact**  
 For any queries, feel free to reach out:  
-📧 Email: *your-email@example.com*  
+📧 Email: *chollangiveeramanikanta3@gmail.com*  
 💻 GitHub: [your-github-username](https://github.com/yourusername)  
 🔗 LinkedIn: [your-linkedin-profile](https://linkedin.com/in/yourname)  
-
----
-
-This README ensures **professionalism, clarity, and structure**. Let me know if you need modifications! 🚀😊
