@@ -1,7 +1,3 @@
-Here’s a **professional and well-structured** README file for your **GitHub repository** of the **"It's My Trip" - Travel Guide Webpage** project:  
-
----
-
 # 🌍 **It's My Trip - Travel Guide Web Application**  
 
 ### 🏖️ Plan your perfect trip effortlessly!  
@@ -10,7 +6,7 @@ A modern and responsive **travel planning web application** built using **React,
 ---
 
 ## 🚀 **Live Demo**  
-🔗 [Live URL](#) *(Add your deployed link here)*  
+🔗 https://its-my-trip.vercel.app/  
 
 ---
 
@@ -29,7 +25,7 @@ A modern and responsive **travel planning web application** built using **React,
 
 - **Frontend:** React.js, JavaScript, HTML5, CSS3, Bootstrap  
 - **Performance Optimization:** Lazy Loading, Code Splitting  
-- **Tools & Libraries:** React Router, Axios (if API is used), Bootstrap  
+- **Tools & Libraries:** React Router, Axios, Bootstrap  
 
 ---
 
