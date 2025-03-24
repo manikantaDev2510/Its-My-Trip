@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/a279bf70-dd14-485d-ad72-6d76e227eae3)![image](https://github.com/user-attachments/assets/15a11ad9-f100-440f-9f94-d2b82d1aaebd)
 ---
 ## 🌍 **It's My Trip - Travel Guide Web Application**  
 ---
@@ -72,5 +71,5 @@ We welcome contributions! Follow these steps:
 ## 📬 **Contact**  
 For any queries, feel free to reach out:  
 📧 Email: *chollangiveeramanikanta3@gmail.com*  
-💻 GitHub: [your-github-username](https://github.com/yourusername)  
-🔗 LinkedIn: [your-linkedin-profile](https://linkedin.com/in/yourname)  
+💻 GitHub: https://github.com/manikantaDev2510  
+🔗 LinkedIn: https://www.linkedin.com/in/veeramanikanta-chollangi-96b2531a9/?trk=PROFILE_DROP_DOWN  
