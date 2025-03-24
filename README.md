@@ -1,3 +1,4 @@
+![Screenshot 2025-03-24 113531](https://github.com/user-attachments/assets/d46e9dca-565b-41c1-ba8e-27946707cef1)
 ---
 ## 🌍 **It's My Trip - Travel Guide Web Application**  
 ---
